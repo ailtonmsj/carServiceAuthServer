@@ -1,0 +1,6 @@
+server:
+  port: 9091
+
+security:
+  user:
+    password: password
