@@ -1,7 +1,7 @@
 server:
   port: 9091
-
-spring:
-  security:
-    user:
-      password: password
+  
+security:
+  oauth2:
+    client:
+      scope: password

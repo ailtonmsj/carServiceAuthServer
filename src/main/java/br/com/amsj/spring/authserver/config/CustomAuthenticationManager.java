@@ -27,5 +27,4 @@ public class CustomAuthenticationManager extends WebSecurityConfigurerAdapter {
 			.withUser("clark").password(encoder.encode("password")).roles("USER").and().
 			withUser("bruce").password(encoder.encode("password")).roles("USER");
 	}
-
 }
